@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     
@@ -11,23 +14,45 @@
 </head>
 <body>
   
+  <video autoplay muted loop id="myVideo">
+    <source src="/background videos/blueee.mp4" type="video/mp4">
+  </video>   
+  
+  <audio id="my_audio" src="arcadia.mp3" loop="loop" preload="auto"></audio>
   <section class="fullpage">
+    <div class="mute">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 208.175 208.175" style="enable-background:new 0 0 208.175 208.175;" xml:space="preserve">
+<g>
+	<g>
+		<path style="fill:white;" d="M0,58.432v90.817h29.3l66.291,50.079V8.847l-65.64,49.585H0z M5.411,143.841V63.84h22.744v80.002
+			H5.411z M90.18,19.712v168.746l-56.614-42.767V62.483L90.18,19.712z"/>
+		<polygon style="fill:white;" points="207.856,62.87 208.175,62.555 205.265,59.642 163.725,101.178 122.511,59.96 
+			122.196,59.642 119.28,62.555 160.812,104.087 119.605,145.309 119.28,145.623 122.196,148.537 163.725,107 204.943,148.218 
+			205.265,148.54 208.175,145.623 166.642,104.087 		"/>
+	</g>
+
+</svg>
+    </div>
     <header>
-      <span>BACKSTAGE TALKS</span>
-      <span>ily@mail.com</span>
+      <span class="logo">LANA DEL REY</span>
     </header>
+    <div class="swiper-pagination"></div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
         </div>
+        
       </div>
       <footer>
         <div>
-        <span>IS GOOD</span>
-        <span>YEP</span>
+        <p class="bio">Elizabeth Woolridge Grant, known as Lana Del Rey, is an American singer and songwriter. </p>
+      
+        
        
         </div>
-        <ul class="menu"></ul>
-       
+        
+        <!-- <ul class="menu"></ul> -->
+       <p class="portfolio">made with love by <a href="#">nessi</a></p>
       </footer>
     </section>
    
