@@ -86,7 +86,7 @@ function createBoard(){
         // const menuLink = document.createElement('li')
         // menuLink.innerHTML=albumArray[i].name
         // menu.appendChild(menuLink)
-        link.innerHTML='BUY HERE'
+        link.innerHTML='LISTEN'
         name.innerHTML=albumArray[i].name
         info.appendChild(album)
         info.appendChild(name)
