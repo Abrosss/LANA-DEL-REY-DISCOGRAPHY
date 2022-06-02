@@ -1,6 +1,6 @@
 let names =['Blue Banisters', 'Violet Bent Backwards Over the Grass', 'Chemtrails over the Country Club', 'Norman Fucking Rockwell', 'Lust for Life',  'Ultraviolence', 'Honeymoon',  'Born to die']
 
-if(window.innerWidth>1900){
+
 var swiper = new Swiper('.swiper-container', {
   
   direction: 'vertical',
@@ -24,4 +24,3 @@ var swiper = new Swiper('.swiper-container', {
   // freeMode: true,
   // freeModeSticky: true
 });
-}
