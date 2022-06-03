@@ -151,7 +151,7 @@ document.addEventListener('scroll',debounce(checkSlide), { passive: true})
 let isMobile
 
 window.addEventListener('resize', () =>{
-    if(window.innerWidth<1050) {isMobile = true
+    if(window.innerWidth<751) {isMobile = true
         audio.pause()}
 else {
     isMobile = false
@@ -159,20 +159,20 @@ else {
 console.log(isMobile)
     resizing.push(isMobile)
     resizing.splice(-widthPlus.length - 1, resizing.length - widthPlus.length);
-    if (window.innerWidth>1050 && (resizing.join('').includes(widthPlus))) {
+    if (window.innerWidth>751 && (resizing.join('').includes(widthPlus))) {
         window.location.replace('#'+lastmobileHash)
         resizing =[]
         
       }
-      if (window.innerWidth<1050 && (resizing.join('').includes(widthMinus))) {
+      if (window.innerWidth<751 && (resizing.join('').includes(widthMinus))) {
        window.location.replace('#'+lastActiveHash)
        resizing = []
         
       }
-      if(window.innerWidth<1050 && !(resizing.join('').includes(decreased))){
+      if(window.innerWidth<751 && !(resizing.join('').includes(decreased))){
       window.location.replace('#'+lastActiveHash)
     }
-    if(window.innerWidth>1050 && !(resizing.join('').includes(decreased)) && !(resizing.join('').includes(increased))){
+    if(window.innerWidth>751 && !(resizing.join('').includes(decreased)) && !(resizing.join('').includes(increased))){
         window.location.replace('#'+lastmobileHash)
       }
     
@@ -267,7 +267,7 @@ window.addEventListener('hashchange', function() {
         // }
         let lastmobileHash
           function checkSlide() {
-            if(window.innerWidth<=1050){
+            if(window.innerWidth<=751){
             lol.forEach(sliderImage => {
                
              
