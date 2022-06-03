@@ -64,6 +64,7 @@ body{
     height:100vh;
   }
   .swiper-slide img{
+    user-select: none;
     object-fit: contain;
     width: 50%;
     box-shadow:
