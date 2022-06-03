@@ -1,4 +1,5 @@
 let audio = document.getElementById('my_audio')
+audio.crossOrigin='anonymous'
 window.onload = function() {
     audio.load()
     audio.play();
