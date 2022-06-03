@@ -2,6 +2,7 @@ let audio = document.getElementById('my_audio')
 window.onload = function() {
     audio.play();
 }
+console.log(window.innerWidth)
 let lastActiveHash
 
 const albumArray = [
