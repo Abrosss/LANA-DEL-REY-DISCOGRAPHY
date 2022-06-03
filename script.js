@@ -10,14 +10,14 @@ const albumArray = [
         hash: 'bluebanisters',
         img: 'images/blue banisters.webp',
         audio: '/background audio/arcadia.mp3',
-        video: '/background videos/blueee.mp4',
+        video: 'videos/blueee.mp4',
         pic: 'ok.png',
         color: '#c4bb93',
     },
     {
         name: 'Violet Bent Backwards Over the Grass',
         hash: 'violetbentbackwardsoverthegrass',
-        video: '/background videos/violet.mp4',
+        video: 'videos/violet.mp4',
         audio: '/background audio/violet.mp3',
         color: '#396448',
         img: 'images/VBBOTG.webp'
@@ -27,14 +27,14 @@ const albumArray = [
         hash: 'chemtrails',
         img: 'images/chemtrails.webp',
         audio: '/background audio/whitedress.mp3',
-        video: '/background videos/chem.mp4',
+        video: 'videos/chem.mp4',
         color: '#707070'
     },
     {
         name: 'Norman Fucking Rockwell',
         hash: 'normanfuckingrockwell',
         img: 'images/NormanFuckingRockwell.webp',
-        video: '/background videos/greatt.mp4',
+        video: 'videos/greatt.mp4',
         audio: '/background audio/norman.mp3',
         color: '#cdb498'
     },
@@ -43,7 +43,7 @@ const albumArray = [
         hash: 'lustforlife',
         img: 'images/lust for life.webp',
         audio: '/background audio/whitemustang.mp3',
-        video: '/background videos/lust.mp4',
+        video: 'videos/lust.mp4',
         color: '#6da7a1'
     },
     {
@@ -51,7 +51,7 @@ const albumArray = [
         hash: 'ultraviolence',
         img: 'images/Ultraviolence.webp',
         color: '#242424',
-        video: '/background videos/ultraviolence.mp4',
+        video: 'videos/ultraviolence.mp4',
         audio: '/background audio/moneypowerglory.mp3'
     },
     {
@@ -59,7 +59,7 @@ const albumArray = [
         hash: 'honeymoon',
         img: 'images/Honeymoon.webp',
         color: '#a8d2e9',
-        video: '/background videos/honeymoon.mp4',
+        video: 'videos/honeymoon.mp4',
         audio: '/background audio/honeymoon.mp3'
     },
     {
@@ -67,7 +67,7 @@ const albumArray = [
         hash: 'borntodie',
         img: 'images/paradise.jpg',
         color: '#e9cd85',
-        video: '/background videos/ride.mp4',
+        video: 'videos/ride.mp4',
         audio: '/background audio/ride.mp3'
     },
    
