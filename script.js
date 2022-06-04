@@ -1,9 +1,10 @@
-let audio = document.getElementById('my_audio')
+
+let audio = new Audio('audio/arcadia.mp3');
+audio.preload = "auto"
+audio.loop = true
 audio.crossOrigin='anonymous'
-window.onload = function() {
-    audio.load()
-    audio.play();
-}
+audio.play()
+
 
 let lastActiveHash
 
@@ -204,7 +205,6 @@ swiper.on('transitionStart', function (e) {
         vid.src = album.video
         audio.src = album.audio
         audio.volume = 0.2
-        console.log(album.audio)
         audio.play()
         lastActiveHash= albumArray[swiper.activeIndex].hash
         }
