@@ -1,5 +1,6 @@
 
-let audio = new Audio('audio/arcadia.mp3');
+let audio = new Audio
+audio.src = 'audio/arcadia.mp3'
 audio.preload = "auto"
 audio.loop = true
 audio.crossOrigin='anonymous'
