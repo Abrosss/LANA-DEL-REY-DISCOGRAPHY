@@ -1,10 +1,9 @@
-
-let audio = new Audio
-audio.src = 'audio/arcadia.mp3'
-audio.preload = "auto"
-audio.loop = true
-audio.crossOrigin='anonymous'
-audio.play()
+let audio = document.getElementById('my_audio')
+audio.volume = 0.2
+window.onload = function() {
+    audio.play()
+    .catch(() => void 0)
+}
 
 
 let lastActiveHash
@@ -159,7 +158,8 @@ window.addEventListener('resize', () =>{
         audio.pause()}
 else {
     isMobile = false
-    audio.play()}
+    audio.play()
+    .catch(() => void 0)}
 console.log(isMobile)
     resizing.push(isMobile)
     resizing.splice(-widthPlus.length - 1, resizing.length - widthPlus.length);
@@ -205,8 +205,9 @@ swiper.on('transitionStart', function (e) {
         if(index==swiper.activeIndex){
         vid.src = album.video
         audio.src = album.audio
-        audio.volume = 0.2
+        
         audio.play()
+        .catch(() => void 0)
         lastActiveHash= albumArray[swiper.activeIndex].hash
         }
         // document.body.style.background=album.color 
