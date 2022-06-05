@@ -18,7 +18,7 @@ body{
   padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  user-select:none;
     background-color: black;
   
 
@@ -201,7 +201,7 @@ body{
       width: 35;
     }
     .inside{
-      width: 50%;
+      width: clamp(5rem, 50vw, 35rem);
     }
   
     .swiper-container{
