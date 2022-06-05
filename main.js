@@ -8,7 +8,6 @@ var swiper = new Swiper('.swiper-container', {
   mousewheelControl: true,
   mousewheel: true,
   slidesPerView: 1,
-  allowTouchMove: false,
   hashNavigation: true,
   pagination: {
     el: '.swiper-pagination',
@@ -20,6 +19,14 @@ var swiper = new Swiper('.swiper-container', {
         </div>';
     },
   },
+  breakpoints: {
+    751: {
+      allowTouchMove: true,
+    },
+    1440: {
+      allowTouchMove: false,
+    },
+  }
   
   // freeMode: true,
   // freeModeSticky: true
